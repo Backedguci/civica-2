@@ -1,4 +1,6 @@
+<?php
 $vote = $_REQUEST['vote'];
+
 
 //get content of textfile
 $filename = "poll_result.txt";
@@ -21,7 +23,7 @@ $insertvote = $yes."||".$no;
 $fp = fopen($filename,"w");
 fputs($fp,$insertvote);
 fclose($fp);
-
+?>
 
 <h2>Result:</h2>
 <td> Teodora
