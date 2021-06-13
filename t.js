@@ -1,7 +1,4 @@
-const pass = "32MPar"
-var tried =window.prompt("pune parola")
-if (pass == tried){
-alert("parola corecta")
+
   
 
 
@@ -16,7 +13,3 @@ function getVote(int) {
   xmlhttp.send();
 }
 
-
-}else {
-alert("parola incorecta")
-}
