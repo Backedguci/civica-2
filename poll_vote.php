@@ -26,7 +26,11 @@ fclose($fp);
 ?>
 
 <h2>Result:</h2>
-<td> Teodora </td> 
-  <?php echo ($yes) ?>
-<td> altcineva </td> 
-<?php echo ($no) <?
+<p> Teodora </p> 
+  <?php 
+echo ($yes) 
+?>
+<p> altcineva </p> 
+<?php 
+  echo ($no)
+  ?>
